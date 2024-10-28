@@ -1,0 +1,60 @@
+h1 {
+  color: #222831;
+  font-size: 25px;
+  font-family: Helvetica;
+}
+h2 {
+  color: #393E46;
+  font-size: 20px;
+  font-family: Helvetica;
+}
+body {
+  /* background-image: url(img/background.svg); */   
+  color: #00ADB5;     /* Text color */
+  background-color: grey;  /* Background color */
+  font-size: 15px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-align: justify;
+  font-weight: normal;
+}
+a {
+  color: purple;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+#photo { 
+  width: 15%;	
+  border-radius: 50%; /* Permet de cercler l'image */
+}
+#tarot { 
+  width: 30%;	
+}
+.container {
+  width: 700px; /* set the width of your container */
+  margin: 40px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+}
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 5px solid lightgrey;
+}
+@media (max-width: 960px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (max-width: 770px) {
+  .container {
+    width: 550px;
+  }
+}
+@media (max-width: 580px) {
+  .container {
+    width: 340px;
+  }
+}
